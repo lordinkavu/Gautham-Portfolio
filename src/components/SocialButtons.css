@@ -1,0 +1,42 @@
+#socialbuttons{
+    position:fixed;
+    right:calc( 5vw );
+    left:auto;
+    bottom:0;
+    width:48px;
+   
+
+}
+
+#socialbuttons ul{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+    
+}
+
+#socialbuttons ul li{
+    padding: 10px;
+}
+#socialbuttons ul li:last-of-type{
+    margin-bottom: 10px;
+}
+#socialbuttons ul::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 30vh;
+    margin: 0px auto;
+    background-color: #ffffff60 ;
+}
+
+@media screen and (max-width:1007px){
+    #socialbuttons{
+        visibility: hidden;
+    }
+}
