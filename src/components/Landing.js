@@ -3,7 +3,7 @@ import "./Landing.css"
 
 const Landing = () => {
   return (
-    <div id="landingdiv">
+    <div id="landingdiv" className="content">
       <div>
         <h1 id="landingtext">
           I build <span>beautiful</span> digital interfaces and{" "}

@@ -1,0 +1,46 @@
+
+#about div,#skills div{
+    margin: 10vh 0 5vh 5vw;
+    max-width:600px;
+}
+#about p{
+    color: #ffffff80;
+
+}
+#about p span{
+    color: white;
+}
+#skills h1{
+    text-align: right;
+    margin-top:10vh;
+}
+
+#skills div{
+    max-width: 600px;
+    display: flex;
+   flex-wrap: wrap-reverse;
+    
+}
+#skills div span{
+    margin:20px;
+    padding:10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow:#ffffff6b 0px 0px 6px 0px;
+    
+}
+
+@media screen and (max-width:641px){
+    #skills h1{
+        text-align: left;
+    }
+    #about div,#skills div{
+        margin: 5vh 0 5vh 0;
+   
+    }
+}
+
+
+
+
+

@@ -1,20 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 @font-face {
     font-family: Louis;
     src: url('../../static/fonts/louis_george_cafe-webfont.woff2'),
          url('../../static/fonts/LouisGeorgeCafeBold.ttf');
+    font-display:swap;
 }
-
+@font-face {
+    font-family: LouisRegular;
+    src: 
+         url('../../static/fonts/LouisGeorgeCafe.ttf');
+    font-display:swap;
+}
 
 
 
 body{
     background-color: black;
+    font-size: 18px;
     
     color: white;
-    font-family: 'Inter', sans-serif; 
-    font-weight: 100;
+    font-family: 'LouisRegular';
+    line-height: 140%;
+
 
     width:90vw;
     margin:30px auto 0 auto;
@@ -34,7 +43,9 @@ h1{
     
 }
 h2{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Louis';
+    letter-spacing: 0.3rem;
+    line-height: 120%;
     font-size: 3vmax ;
     margin: 0;
    
@@ -42,10 +53,12 @@ h2{
 
 
 h3{
-    
+    font-family: 'Louis';
+    letter-spacing: 0.2rem;
+    line-height: 120%;
 
     margin: 0rem;
-    font-size: 1.5vmax;
+    font-size: 2vmax;
 }
 h4{
     font-family: 'Inter', sans-serif; 
@@ -62,14 +75,22 @@ a{
     
 }
 
+
+.content{
+    width: 70vw;
+}
+
 @media screen and (max-width:641px){
     h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     h2{
         font-size: 1.5rem;
     }
     h3{
         font-size:1.25rem;
+    }
+    .content{
+        width:90vw;
     }
 }

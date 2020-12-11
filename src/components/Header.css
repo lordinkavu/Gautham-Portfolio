@@ -2,15 +2,19 @@ header {
   display: flex;
   justify-content: space-between;
   transition: all 0.2s ease-out;
+ 
+  
 }
 header h3{
   font-family:  'Poiret One', cursive;
   line-height: 140%;
   letter-spacing: 0.5rem;
+ 
+  
 }
 header #navmenu {
   width: 48px;
-
+  
   cursor: pointer;
   position: relative;
   z-index: 1000;
