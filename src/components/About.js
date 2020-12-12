@@ -3,8 +3,9 @@ import "./About.css"
 
 const About = () => {
   return (
-      <>
-    
+    <>
+      
+     
       <section id="about" className="content">
       <h1>About</h1>
       
@@ -23,17 +24,22 @@ const About = () => {
         </p>
       </div>
     </section>
+    
+    
     <section id="skills" className="content">
         <h1>Skills</h1>
         <div>
-          
-            <span>ExpressJS</span>
-            <span style={{color:"#ffffff80"}}>MongoDB</span>
-            <span style={{color:"#ffffff80"}}>Firebase</span>
             <span>Javascript (ES6+)</span>
             <span>ReactJS</span>
             <span>HTML & CSS</span>
             <span>NodeJS</span>
+          
+            <span>ExpressJS</span>
+            <span>Bootstrap</span>
+            <span>Material UI</span>
+            <span style={{color:"#ffffff80"}}>MongoDB</span>
+            <span style={{color:"#ffffff80"}}>Firebase</span>
+            
 
 
         </div>
@@ -41,6 +47,8 @@ const About = () => {
 
     </section>
     </>
+    
+    
   )
 }
 

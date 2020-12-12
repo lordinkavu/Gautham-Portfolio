@@ -18,17 +18,24 @@
 #skills div{
     max-width: 600px;
     display: flex;
-   flex-wrap: wrap-reverse;
+   flex-wrap: wrap;
     
 }
 #skills div span{
-    margin:20px;
-    padding:10px;
-    border: 1px solid white;
-    border-radius: 3px;
-    box-shadow:#ffffff6b 0px 0px 6px 0px;
+    
+    padding:10px 20px 5px 0px;
+   
     
 }
+
+#skills{
+    margin-top:20vh;
+    margin-bottom: 20vh;
+
+}
+
+
+
 
 @media screen and (max-width:641px){
     #skills h1{
