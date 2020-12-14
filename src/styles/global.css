@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;600;900&display=swap');
 
-@font-face {
-    font-family: Louis;
-    src: url('../../static/fonts/louis_george_cafe-webfont.woff2'),
-         url('../../static/fonts/LouisGeorgeCafeBold.ttf');
-    font-display:swap;
-}
-@font-face {
-    font-family: LouisRegular;
-    src: 
-         url('../../static/fonts/LouisGeorgeCafe.ttf');
-    font-display:swap;
-}
 
 
 
@@ -21,10 +10,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-color: #000000;
 /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='845' height='101.4' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='5.1' stroke-opacity='0.37'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); */
 
-font-size: 18px;
+font-size: 2vw;
     
     color: rgba(255, 255, 255, 0.901);
-    font-family: 'LouisRegular';
+    font-family: 'Overpass', sans-serif;
+
     line-height: 140%;
 
 
@@ -32,9 +22,11 @@ font-size: 18px;
     margin:30px auto 0 auto;
 }
 h1{
-    font-family: 'Louis';
+
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
     font-size: 7vmax;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
     line-height: 120%;
    
     word-wrap: break-word;
@@ -46,7 +38,7 @@ h1{
     
 }
 h2{
-    font-family: 'Louis';
+  
     letter-spacing: 0.3rem;
     line-height: 120%;
     font-size: 3vmax ;
@@ -56,7 +48,7 @@ h2{
 
 
 h3{
-    font-family: 'Louis';
+
     letter-spacing: 0.2rem;
     line-height: 120%;
 
@@ -64,8 +56,7 @@ h3{
     font-size: 2vmax;
 }
 h4{
-    font-family: 'Louis'; 
-    font-weight: 100;
+    font-weight: 600;
     letter-spacing: 0.1rem;
     line-height: 120%;
     margin: 0;
@@ -83,12 +74,22 @@ a{
     width: 70vw;
 }
 
+#footer-text{
+    background-color: #1b1b1b;
+    text-align: center;
+    font-size: 18px;
+    padding:10px;
+}
+
 
 
 @media screen and (max-width:641px){
+    body{
+        font-size: 18px;
+    }
     h1{
         font-size: 2rem;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0rem;
     }
     h2{
         font-size: 1.5rem;
@@ -99,4 +100,8 @@ a{
     .content{
         width:90vw;
     }
+    #footer-text{
+        font-size: 14px;
+    }
+    
 }

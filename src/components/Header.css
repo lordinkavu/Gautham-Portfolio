@@ -46,6 +46,7 @@ header .open .bar:last-of-type {
   justify-content: flex-start;
   z-index: 100;
   padding-top: 150px;
+  font-weight: 900;
   
 background-color: black; 
 animation: fadeInAnimation ease 0.5s ;
@@ -60,7 +61,7 @@ animation-fill-mode: forwards;
   
 
 
-  font-family: "Louis";
+  
   font-size: 1.5rem;
  
 

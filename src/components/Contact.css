@@ -1,0 +1,24 @@
+#contact{
+    margin-top:20vh;
+    margin-bottom: 20vh;
+
+}
+
+#contact div p{
+    margin-top:5vh;
+    color: #ffffffdd;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:641px){
+    #contact h1{
+        text-align: left;
+    }
+
+}
