@@ -1,5 +1,7 @@
 import React from "react"
 import "./Landing.css"
+import resume from '../../public/static/gautham_resume.pdf'
+
 
 const Landing = () => {
   return (
@@ -10,7 +12,7 @@ const Landing = () => {
           <span>experiences</span>
         </h1>
         <div id="social-icons">
-          <a>
+          <a href="mailto:gauthamvaranacode@gmail.com" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -23,7 +25,7 @@ const Landing = () => {
               />
             </svg>
           </a>
-          <a>
+          <a href="https://github.com/lordinkavu" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -36,7 +38,8 @@ const Landing = () => {
               />
             </svg>
           </a>
-          <a>
+          <a href="https://www.linkedin.com/in/gauthamskv/
+" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -49,7 +52,7 @@ const Landing = () => {
               />
             </svg>
           </a>
-          <a>
+          <a href={resume} target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

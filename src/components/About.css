@@ -1,7 +1,7 @@
 
 #about div,#skills div{
     margin: 10vh 0 5vh 5vw;
-    max-width:600px;
+    max-width:50vw;
 }
 #about p{
     color: #ffffff80;
@@ -17,7 +17,7 @@
 }
 
 #skills div{
-    max-width: 600px;
+    
     display: flex;
    flex-wrap: wrap;
     
@@ -44,6 +44,7 @@
     }
     #about div,#skills div{
         margin: 5vh 0 5vh 0;
+        max-width:none;
    
     }
 }

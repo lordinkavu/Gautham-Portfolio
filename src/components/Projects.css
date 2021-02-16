@@ -20,7 +20,7 @@
     
     
     overflow-wrap: break-word;
-    max-width: 350px;
+    max-width: 25vw;
     background-color: rgba(0, 0, 0, 0.4);
    
 
@@ -66,6 +66,9 @@
 
     #project-cards div:nth-child(1){
         margin-top: 8vh;
+    }
+    #project-cards > div{
+        max-width: none;
     }
 }
 

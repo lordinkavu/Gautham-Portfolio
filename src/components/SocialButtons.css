@@ -1,6 +1,6 @@
 #socialbuttons{
     position:fixed;
-    right:calc( 5vw );
+    right:5vw;
     left:auto;
     bottom:0;
     width:48px;

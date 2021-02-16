@@ -1,5 +1,6 @@
 import React from "react"
 import "./SocialButtons.css"
+import resume from '../../public/static/gautham_resume.pdf'
 
 const SocialButtons = () => {
   return (
@@ -7,12 +8,12 @@ const SocialButtons = () => {
       <ul>
       <li>
       
-          <a>
+          <a href={resume} target="_blank" rel="noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#ffffffdd" d="M4 22v-20h16v11.543c0 4.107-6 2.457-6 2.457s1.518 6-2.638 6h-7.362zm18-7.614v-14.386h-20v24h10.189c3.163 0 9.811-7.223 9.811-9.614zm-5-1.386h-10v-1h10v1zm0-4h-10v1h10v-1zm0-3h-10v1h10v-1z"/></svg>
           </a>
       </li>
         <li>
-          <a>
+          <a href="mailto:gauthamvaranacode@gmail.com" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -27,7 +28,7 @@ const SocialButtons = () => {
           </a>
         </li>
         <li>
-          <a>
+          <a href="https://github.com/lordinkavu" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -42,7 +43,8 @@ const SocialButtons = () => {
           </a>
         </li>
         <li>
-          <a>
+          <a href="https://www.linkedin.com/in/gauthamskv/
+" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

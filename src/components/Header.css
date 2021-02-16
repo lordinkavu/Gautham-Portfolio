@@ -9,14 +9,17 @@ header h3{
   font-family:  'Poiret One', cursive;
   line-height: 140%;
   letter-spacing: 0.5rem;
+
  
   
 }
 header #navmenu {
   width: 48px;
+  position: absolute;
+  right:5vw;
   
   cursor: pointer;
-  position: relative;
+ 
   z-index: 1000;
 }
 
@@ -29,10 +32,10 @@ header .bar {
 }
 
 header .open .bar:first-of-type {
-  transform: translate(0px, 4px) rotate(-45deg);
+  transform: translate(0px, 4.75px) ;
 }
 header .open .bar:last-of-type {
-  transform: translate(0px, -4px) rotate(45deg);
+  transform: translate(0px, -4.75px) ;
 }
 
 #navitems {
@@ -49,15 +52,16 @@ header .open .bar:last-of-type {
   font-weight: 900;
   
 background-color: black; 
-animation: fadeInAnimation ease 0.5s ;
-animation-iteration-count: 1; 
-animation-fill-mode: forwards; 
+
+
 
 
  
 
-
-  
+/* 
+animation: fadeInAnimation ease 0.8s ;
+animation-iteration-count: 1; 
+animation-fill-mode: forwards;  */
   
 
 
@@ -66,6 +70,8 @@ animation-fill-mode: forwards;
  
 
 }
+
+
 @keyframes fadeInAnimation { 
   0% { 
       opacity: 0; 
@@ -76,9 +82,11 @@ animation-fill-mode: forwards;
    } 
 } 
 
+
 #navitems a {
   margin-bottom: 2rem;
   margin-left:auto;
   margin-right: auto;
-  
+  text-decoration: none;
+  color: white;
 }
